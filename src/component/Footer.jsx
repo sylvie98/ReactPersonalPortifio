@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-        <footer className="border  bg-blue-50 ">
+        <footer className="border  bg-gray-100 ">
   <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
     <div className="mx-auto max-w-md">
     </div>
@@ -16,7 +16,7 @@ const Footer = () => {
 
         <div className="mt-6 flex justify-center gap-4 lg:justify-start">
           <a
-            className=" bg-purple-700 text-white transition hover:text-gray-700/75"
+            className=" bg-[#8a1a75] text-white transition hover:text-gray-700/75"
             href="#"
             target="_blank"
             rel="noreferrer"
@@ -33,7 +33,7 @@ const Footer = () => {
           </a>
 
           <a
-            className=" bg-purple-700 text-white  transition hover:text-gray-700/75"
+            className=" bg-[#8a1a75] text-white  transition hover:text-gray-700/75"
             href="#"
             target="_blank"
             rel="noreferrer"
@@ -50,7 +50,7 @@ const Footer = () => {
           </a>
 
           <a
-            className=" bg-purple-700 text-white transition hover:text-gray-700/75"
+            className=" bg-[#8a1a75] text-white transition hover:text-gray-700/75"
             href="#"
             target="_blank"
             rel="noreferrer"
@@ -65,7 +65,7 @@ const Footer = () => {
           </a>
 
           <a
-            className=" bg-purple-700 text-white transition hover:text-gray-700/75"
+            className=" bg-[#8a1a75] text-white text-3xl transition hover:text-gray-700/75"
             href="#"
             target="_blank"
             rel="noreferrer"
@@ -87,7 +87,7 @@ const Footer = () => {
 
       <div className="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">
         <div>
-          <strong className="font-medium text-purple-700"> Services </strong>
+          <strong className="font-medium text-[#9c3088]"> Services </strong>
 
           <ul className="mt-6 space-y-1">
             <li>
@@ -105,7 +105,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <strong className="font-medium text-purple-700"> Portfolio </strong>
+          <strong className="font-medium text-[#9c3088]"> Portfolio </strong>
 
           <ul className="mt-6 space-y-1">
             <li>
@@ -123,7 +123,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <strong className="font-medium text-purple-700"> Support </strong>
+          <strong className="font-medium text-[#9c3088]"> Support </strong>
 
           <ul className="mt-6 space-y-1">
             <li>
@@ -141,7 +141,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    <hr className=' border border-solid border-purple-200 mt-14'/>
+    <hr className=' border border-solid bg-[#8a1a75] mt-14'/>
     <div className="mt-16 border-t border-gray-100 pt-8">
       <p className="text-center text-base/relaxed text-gray-500">
         © Company 2024. All rights reserved. Design by Sylvie Masengesho

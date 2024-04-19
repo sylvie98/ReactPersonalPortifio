@@ -8,39 +8,39 @@ const Project = () => {
       <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">MY PORTIFIO</h2>
     </header>
 
-    <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      <li>
+    <ul class="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
         <a href="#" class="group block overflow-hidden">
           <img
             src="/cup.jpg"
             alt=""
-            class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+            class="h-[450px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
         </a>
       </li>
 
-      <li>
+      <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
         <a href="#" class="group block overflow-hidden">
           <img
             src="/house5.jpg"
             alt=""
-            class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+            class="h-[450px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
         </a>
       </li>
 
-      <li>
+      <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
         <a href="#" class="group block overflow-hidden">
           <img
             src="/steak.jpg"
             alt=""
-            class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+            class="h-[450px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
         </a>
       </li>
 
-      <li>
+      <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
         <a href="#" class="group block overflow-hidden">
           <img
             src="/emojis.PNG"
@@ -49,7 +49,7 @@ const Project = () => {
           />
         </a>
       </li>
-      <li>
+      <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
         <a href="#" class="group block overflow-hidden">
           <img
             src="/image.PNG"
@@ -58,7 +58,7 @@ const Project = () => {
           />
         </a>
       </li>
-      <li>
+      <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
         <a href="#" class="group block overflow-hidden">
           <img
             src="/m.PNG"

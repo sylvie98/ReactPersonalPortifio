@@ -10,7 +10,7 @@ const Service = () => {
     </h2>
 
     <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-    <blockquote class="rounded-lg bg-gray-50 p-6 shadow-inner shadow-purple-500 sm:p-8 dh">
+    <blockquote class="rounded-lg bg-gray-50 p-6 shadow-inner shadow-[#e461ce] sm:p-8 dh">
         <div class="">
         <div  className=' w-20'>
                 <img src='https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQxeAJiis2F7o88RfGDOzDNJmudK_So0ZmBNn2mAz81dA79SUEe'/>
@@ -27,12 +27,12 @@ const Service = () => {
               </div>
             </div>
 
-            <footer class="mt-4 text-sm font-medium text-purple-500 sm:mt-6">
+            <footer class="mt-4 text-sm font-medium text-[#9c3088] sm:mt-6">
               &mdash; EXPLORE MORE
             </footer>
       </blockquote>
 
-      <blockquote class="rounded-lg bg-gray-50 p-6 shadow-inner shadow-purple-500 sm:p-8">
+      <blockquote class="rounded-lg bg-gray-50 p-6 shadow-inner shadow-[#e461ce] sm:p-8">
         <div class="">
         <div>
                 <img src='https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR5JMhMNAfoZvFQnH6_oGr8m6nTPkfEi3Qmi41L-WOEylvwPWXx' className=' w-20'/>
@@ -49,11 +49,11 @@ const Service = () => {
               </div>
             </div>
 
-            <footer class="mt-4 text-sm font-medium text-purple-500 sm:mt-6">
+            <footer class="mt-4 text-sm font-medium text-[#9c3088] sm:mt-6">
               &mdash; EXPLORE MORE
             </footer>
       </blockquote>
-      <blockquote class="rounded-lg bg-gray-50 p-6 shadow-inner shadow-purple-500 sm:p-8">
+      <blockquote class="rounded-lg bg-gray-50 p-6 shadow-inner shadow-[#e461ce] sm:p-8">
         <div class="">
         <div>
                 <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShfcTOFFUMjcuEVKgekZJnlDRnLxvLwCTs-0SBQnHySanGG5Rt'className=' w-20'/>
@@ -70,13 +70,13 @@ const Service = () => {
               </div>
             </div>
 
-            <footer class="mt-4 text-sm font-medium text-purple-500 sm:mt-6">
+            <footer class="mt-4 text-sm font-medium text-[#9c3088] sm:mt-6">
               &mdash; EXPLORE MORE
             </footer>
       </blockquote>
     </div>
     <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-    <blockquote class="rounded-lg bg-gray-50 p-6 shadow-inner shadow-purple-500 sm:p-8">
+    <blockquote class="rounded-lg bg-gray-50 p-6 shadow-inner shadow-[#e461ce] sm:p-8">
         <div class="">
         <div >
         <img src='https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQuZh3b0l6OWD7h7aX9Pym4pz0WSGMfCVyRC9lMpqITFBJ98rVc'className=' w-20'/> 
@@ -93,12 +93,12 @@ const Service = () => {
               </div>
             </div>
 
-            <footer class="mt-4 text-sm font-medium text-purple-500 sm:mt-6">
+            <footer class="mt-4 text-sm font-medium text-[#9c3088] sm:mt-6">
               &mdash; EXPLORE MORE
             </footer>
       </blockquote>
 
-      <blockquote class="rounded-lg bg-gray-50 p-6 shadow-inner shadow-purple-500 sm:p-8">
+      <blockquote class="rounded-lg bg-gray-50 p-6 shadow-inner shadow-[#e461ce] sm:p-8">
         <div class="">
         <div>
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyYkW5dA3jvizQjEKLUTjHHEBJAA07cpdiis0Y52SndfDyrNSp'className=' w-20'/>
@@ -115,12 +115,12 @@ const Service = () => {
               </div>
             </div>
 
-            <footer class="mt-4 text-sm font-medium text-purple-500 sm:mt-6">
+            <footer class="mt-4 text-sm font-medium text-[#9c3088] sm:mt-6">
               &mdash; EXPLORE MORE
             </footer>
       </blockquote>
 
-      <blockquote class="rounded-lg bg-gray-50 p-6  shadow-inner shadow-purple-500 sm:p-8">
+      <blockquote class="rounded-lg bg-gray-50 p-6  shadow-inner shadow-[#e461ce] sm:p-8">
         <div class="">
         <div class="">
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQtjCF-bWP5v_d9-72So8Z94DCoDxxQxf2fwSJAfNT0UhG9gbs'className=' w-20'/>
@@ -137,7 +137,7 @@ const Service = () => {
               </div>
             </div>
 
-            <footer class="mt-4 text-sm font-medium text-purple-500 sm:mt-6">
+            <footer class="mt-4 text-sm font-medium text-[#9c3088] sm:mt-6">
               &mdash; EXPLORE MORE
             </footer>
       </blockquote>

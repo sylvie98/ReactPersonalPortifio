@@ -1,28 +1,25 @@
 import React from 'react'
 
-const About = () => {
+const Form = () => {
   return (
-          <div className='shadow-[#e461ce]'>
-       
+    <div>
+        <section class=" bg-white">
   <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
       <div className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full lg:col-span-2'>
-        <img src='/logo.jpeg' className=' h-full w-full sm:h-[450px]'/>
-      </div>
-
-      <div class=" lg:col-span-3"> 
-      <div>
-      <h2 className=' text-[#9c3088] font-bold text-3xl'>WELCOME TO MY WORLD</h2>
-               <h3 className=' text-2xl mt-5'>Hi, I'm <span className=' text-[#9c3088] font-bold'> Sylvie Masengesho </span> a Front-End Developer</h3>
-               <p className=' mt-8'>
-                   I'm called Masengesho sylvie, I m front-end developer.
-                   In high school I studed software development after studing in
-                   highschool,
-                   I attended she can code program,and it will take 4 months.And I wish
-                   to be software engener 
-              </p>
-      </div>
-      <div className="mt-6 flex  gap-4 lg:justify-start">
+        <img src='footer1.jpeg' className=' h-72 w-full'/>
+        <h1>Sylvie Masengesho</h1>
+        <h2>I am front developer</h2>
+        <p class="max-w-xl ">
+          I am available for freelance work. connect with via and call in to my account
+        </p>
+        <div class="mt-8">
+          <p>phone:+250 793 896 810</p>
+          <p>Email:sylviemasengesho@gmail.com</p>
+        </div>
+        <div>
+          <h3>FIND WITH ME</h3>
+          <div className="mt-6 flex  gap-4 lg:justify-start">
                 <a
                   className=" bg-[#8a1a75] text-white transition hover:text-gray-700/75"
                   href="#"
@@ -73,14 +70,14 @@ const About = () => {
                 </a>
 
                 <a
-                  className=" bg-[#8a1a75] text-white transition hover:text-gray-700/75"
+                  className=" bg-[#8a1a75] text-white transition hover:text-gray-700/75 "
                   href="#"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span className="sr-only"> GitHub </span>
 
-                  <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <svg className="h-6 w-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path
                       fill-rule="evenodd"
                       d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
@@ -89,14 +86,69 @@ const About = () => {
                   </svg>
                 </a>
              </div>  
+        </div>
+      </div>
+
+      <div class="rounded-lg p-8  bg-gray-50  shadow-inner shadow-[#e461ce] lg:col-span-3">
+        <form action="#" class="space-y-4">
+          <div>
+            <label class="sr-only" for="name">Name</label>
+            <input
+              class="w-full rounded-lg border-gray-200 p-3 text-sm"
+              placeholder="Name"
+              type="text"
+              id="name"
+            />
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 ">
+            <div>
+              <label class="sr-only" for="email">Email</label>
+              <input
+                class="w-full rounded-lg border-gray-200 p-3 text-sm"
+                placeholder="Email address"
+                type="email"
+                id="email"
+              />
+            </div>
+
+            <div>
+              <label class="sr-only" for="phone">Phone</label>
+              <input
+                class="w-full rounded-lg border-gray-200 p-3 text-sm"
+                placeholder="Phone Number"
+                type="tel"
+                id="phone"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label class="sr-only" for="message">Message</label>
+
+            <textarea
+              class="w-full rounded-lg border-gray-200 p-3 text-sm"
+              placeholder="Message"
+              rows="8"
+              id="message"
+            ></textarea>
+          </div>
+
+          <div class="mt-4">
+            <button
+              type="submit"
+              class="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
-
+</section>
     </div>
-     
-    
-   ) 
+  )
 }
 
-export default About
+export default Form

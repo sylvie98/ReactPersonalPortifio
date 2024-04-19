@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navigation = () => {
   return (
-        <header class="bg-white border border-primary shadow-xl shadow-[#8067e63b]">
+        <header class="bg-white border border-primary shadow-lg shadow-[#edd0e8]">
            <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div class="flex h-16 items-center justify-between">
                     <div class="flex-1 md:flex md:items-center md:gap-12">
