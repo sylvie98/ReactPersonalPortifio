@@ -10,7 +10,7 @@ const Project = () => {
 
     <ul class="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
       <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
-        <a href="#" class="group block overflow-hidden">
+        <a href="https://personalportifio-tail.onrender.com/" class="group block overflow-hidden">
           <img
             src="/cup.jpg"
             alt=""
@@ -20,7 +20,7 @@ const Project = () => {
       </li>
 
       <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
-        <a href="#" class="group block overflow-hidden">
+        <a href="https://br-architect-template.onrender.com/" class="group block overflow-hidden">
           <img
             src="/house5.jpg"
             alt=""
@@ -41,7 +41,7 @@ const Project = () => {
       </li>
 
       <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
-        <a href="#" class="group block overflow-hidden">
+        <a href="https://randomemojiface.onrender.com/" class="group block overflow-hidden">
           <img
             src="/emojis.PNG"
             alt=""
@@ -50,7 +50,7 @@ const Project = () => {
         </a>
       </li>
       <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
-        <a href="#" class="group block overflow-hidden">
+        <a href="https://agecalculator-ikya.onrender.com/" class="group block overflow-hidden">
           <img
             src="/image.PNG"
             alt=""
@@ -59,9 +59,36 @@ const Project = () => {
         </a>
       </li>
       <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
-        <a href="#" class="group block overflow-hidden">
+        <a href="https://portfolio-q4kx.onrender.com/" class="group block overflow-hidden">
           <img
             src="/m.PNG"
+            alt=""
+            class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+          />
+        </a>
+      </li>
+      <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
+        <a href="https://diceroll-wj7o.onrender.com/" class="group block overflow-hidden">
+          <img
+            src="/diceroll.png"
+            alt=""
+            class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+          />
+        </a>
+      </li>
+      <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
+        <a href="https://contactapp-2.onrender.com/" class="group block overflow-hidden">
+          <img
+            src="/contactapp.png"
+            alt=""
+            class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+          />
+        </a>
+      </li>
+      <li className='rounded-lg bg-gray-50  shadow-inner shadow-[#e461ce] sm:p-8 h-full w-full'>
+        <a href="https://countries-appl.onrender.com/" class="group block overflow-hidden">
+          <img
+            src="/countries.png"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />

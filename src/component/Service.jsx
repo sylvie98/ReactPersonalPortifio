@@ -123,7 +123,7 @@ const Service = () => {
       <blockquote class="rounded-lg bg-gray-50 p-6  shadow-inner shadow-[#e461ce] sm:p-8">
         <div class="">
         <div class="">
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQtjCF-bWP5v_d9-72So8Z94DCoDxxQxf2fwSJAfNT0UhG9gbs'className=' w-20'/>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQtjCF-bWP5v_d9-72So8Z94DCoDxxQxf2fwSJAfNT0UhG9gbs'className=' w-20 '/>
               </div>
 
               <div class="mt-4">
