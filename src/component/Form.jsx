@@ -94,7 +94,8 @@ const Form = () => {
       </div>
 
       <div class="rounded-lg p-8  bg-gray-50  shadow-inner shadow-[#e461ce] lg:col-span-3">
-        <form action="#" class="space-y-4">
+        <form  action="https://formspree.io/f/xyyrlnzp"
+  method="POST" class="space-y-4">
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
               <label class="sr-only" for="name">Name</label>
@@ -102,7 +103,7 @@ const Form = () => {
                 class="w-full rounded-lg border-gray-200 p-3 text-sm"
                 placeholder="FullName address"
                 type="text"
-                id="name"
+                name="name"
               />
             </div>
 
@@ -112,7 +113,7 @@ const Form = () => {
                 class="w-full rounded-lg border-gray-200 p-3 text-sm"
                 placeholder="Phone Number"
                 type="tel"
-                id="phone"
+                name="phone"
               />
             </div>
           </div>
@@ -124,7 +125,7 @@ const Form = () => {
                 class="w-full rounded-lg border-gray-200 p-3 text-sm"
                 placeholder="Email address"
                 type="email"
-                id="email"
+                name="email"
               />
             </div>
 
@@ -134,7 +135,7 @@ const Form = () => {
                 class="w-full rounded-lg border-gray-200 p-3 text-sm"
                 placeholder="Subject"
                 type="text"
-                id="subject"
+                name="subject"
               />
             </div>
           </div>
@@ -146,7 +147,7 @@ const Form = () => {
               class="w-full rounded-lg border-gray-200 p-3 text-sm"
               placeholder="Message"
               rows="8"
-              id="message"
+              name="message"
             ></textarea>
           </div>
 
@@ -159,6 +160,7 @@ const Form = () => {
             </button>
           </div>
         </form>
+       
       </div>
     </div>
   </div>
