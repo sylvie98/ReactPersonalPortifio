@@ -24,26 +24,9 @@ const Form = () => {
         <div>
           <h3 className='text-2xl mt-5 font-bold'>FIND WITH ME</h3>
           <div className="mt-6 flex  gap-6 lg:justify-start">
-                <a
-                  className=" bg-[#8a1a75] text-white transition hover:text-gray-700/75"
-                  href="#"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span className="sr-only"> Facebook </span>
-
-                  <svg className="h-10 w-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    fill-rule="evenodd"
-                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                    clip-rule="evenodd"
-                  />
-                  </svg>
-                </a>
-
-                <a
+          <a
                   className=" bg-[#8a1a75] text-white  transition hover:text-gray-700/75"
-                  href="#"
+                  href="https://www.instagram.com/sy.lvie7498/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -58,9 +41,11 @@ const Form = () => {
                   </svg>
                 </a>
 
+              
+
                 <a
-                  className=" bg-[#8a1a75] text-white transition hover:text-gray-700/75 "
-                  href="#"
+                  className=" bg-[#8a1a75] text-white transition hover:text-gray-700/75"
+                  href="https://github.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -73,6 +58,21 @@ const Form = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
+                </a>
+                <a
+                 className=" bg-[#8a1a75] text-white transition hover:text-gray-700/75"
+                 href="https://github.com/"
+                 target="_blank"
+                 rel="noreferrer"
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path 
+                  fill-rule="evenodd"
+                  d="M6.194 14.644c0 1.16-.943 2.107-2.103 2.107a2.11 2.11 0 0 1-2.104-2.107 2.11 2.11 0 0 1 2.104-2.106h2.103v2.106zm1.061 0c0-1.16.944-2.106 2.104-2.106a2.11 2.11 0 0 1 2.103 2.106v5.274a2.11 2.11 0 0 1-2.103 2.106 2.108 2.108 0 0 1-2.104-2.106v-5.274zm2.104-8.455c-1.16 0-2.104-.948-2.104-2.107s.944-2.106 2.104-2.106a2.11 2.11 0 0 1 2.103 2.106v2.107H9.359zm0 1.06a2.11 2.11 0 0 1 2.103 2.107 2.11 2.11 0 0 1-2.103 2.106H4.092a2.11 2.11 0 0 1-2.104-2.106 2.11 2.11 0 0 1 2.104-2.107h5.267zm8.447 2.107c0-1.16.943-2.107 2.103-2.107a2.11 2.11 0 0 1 2.104 2.107 2.11 2.11 0 0 1-2.104 2.106h-2.103V9.356zm-1.061 0c0 1.16-.944 2.106-2.104 2.106a2.11 2.11 0 0 1-2.103-2.106V4.082a2.11 2.11 0 0 1 2.103-2.106c1.16 0 2.104.946 2.104 2.106v5.274zm-2.104 8.455c1.16 0 2.104.948 2.104 2.107s-.944 2.106-2.104 2.106a2.11 2.11 0 0 1-2.103-2.106v-2.107h2.103zm0-1.06a2.11 2.11 0 0 1-2.103-2.107 2.11 2.11 0 0 1 2.103-2.106h5.268a2.11 2.11 0 0 1 2.104 2.106 2.11 2.11 0 0 1-2.104 2.107h-5.268z"
+                  clip-rule="evenodd"
+                  />
+                    
+                    </svg>
                 </a>
              </div>  
         </div>
