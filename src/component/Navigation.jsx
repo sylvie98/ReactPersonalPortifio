@@ -1,4 +1,6 @@
 import React from 'react'
+import Home from './Home'
+import { Link } from 'react-router-dom'
 
 const Navigation = () => {
   return (
@@ -6,27 +8,27 @@ const Navigation = () => {
            <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div class="flex h-16 items-center justify-between">
                     <div class="flex-1 md:flex md:items-center md:gap-12">
-                        <a href="#" className='block text-gray-500 transition hover:text-gray-500/75'>
-                            <span>SYLVIE</span>
-                        </a>
+                      <Link to={"/"}> <a className='block text-gray-500 transition hover:text-gray-500/75'>
+                            <span>SYLVIE</span></a>
+                     </Link>
                     </div>
                     <div class="md:flex md:items-center md:gap-12">
                         <nav class="hidden md:block">
                             <ul class="flex items-center gap-6 text-sm">
                                 <li>
-                                    <a href="#" className='text-gray-500 transition hover:text-gray-500/75'> ABOUT </a>
+                                   <Link to={"/About"}> <a  className='text-gray-500 transition hover:text-gray-500/75'> ABOUT </a> </Link>
+                                </li>
+                               
+                                <li>
+                                   <Link to={"/Service"}> <a  className='text-gray-500 transition hover:text-gray-500/75'> SERVICE </a></Link>
                                 </li>
 
                                 <li>
-                                    <a href="#" className='text-gray-500 transition hover:text-gray-500/75'> SERVICE </a>
+                                  <Link to={"/Project"}> <a className='text-gray-500 transition hover:text-gray-500/75'> PROJECT </a></Link> 
                                 </li>
 
                                 <li>
-                                    <a href="#" className='text-gray-500 transition hover:text-gray-500/75'> PROJECT </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" className='text-gray-500 transition hover:text-gray-500/75'> CONTACT </a>
+                                   <Link to={"/Form"}> <a className='text-gray-500 transition hover:text-gray-500/75'> CONTACT </a></Link> 
                                 </li>
                         </ul>
                         </nav>
